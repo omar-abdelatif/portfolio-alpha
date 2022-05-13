@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/alfa-slab-one:n4:default.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <header>
+			<div class="logo">
+				<a href="index.html">Omar Abdelatif Hassan</a>
+			</div>
+
+            <nav>
+                <ul>
+                    <li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#work">My Work</a>
+					</li>
+                    <li>
+						<a href="#about">About Omar</a>
+					</li>
+                    <li>
+						<a href="#hire">Hire Me</a>
+					</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="home-hero">
+            <div class="container">
+                <h1 class="title"> FrontEnd Developer
+                    <span> Creating Great Themes For You Only </span>
+                </h1>
+                <a href="" class="button button-accent">see my work</a>
+            </div>
+        </section>
+        
+        <div class="container">
+            <section class="home-about" id="about">
+                <div class="home-about-textbox">
+                    <h1>WHO AM I</h1>
+                    <p>
+						My Name is <strong>Omar Abdelatif...</strong> Iam 26yrs... i work as a frontend designer and developer... i design the interface of the website and code it and also works with wordpress themes... also have pervoius works you can see it in (see my works)... so finally i hope u like my work.
+					</p>
+                </div>
+            </section>
+        </div>
+        
+        <section class="portfolio" id="work">
+            <h1>Some of My Work</h1>
+            <figure class="port-item">
+                <img src="img/portfolio-01.png" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>EG MOVIES</p>
+                    <a href="https://eg4movies.ml/" class="button button-accent button-small">project details</a>
+                </figcaption>
+            </figure>
+            <figure class="port-item">
+                <img src="img/portfolio-02.png" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>project titles</p>
+                    <a href="https://youread.tk/" class="button button-accent button-small">project details</a>
+                </figcaption>
+            </figure>
+        </section>
+        
+        <section class="cta" id="hire">
+            <div class="container">
+                <h1 class="title title-cta">Like What you See 
+                    <span>Then What are you waiting for?</span>
+                </h1>
+				<a type="button" class="button button-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="hire-me">Hire Me</a>
+				
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="formmail.php" method="post" id="form1">
+                                    <div class="form-group">
+										<input type="text" class="form-control" id="name" placeholder="Name Here" name="name" required form="#form1">
+                                    </div>
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" name="email" required placeholder="Email" form="#form1">
+                                    </div>
+                                    <div class="form-group">
+										<textarea class="form-control" name="comments" required id="comment" placeholder="Your Message Here"></textarea>
+									</div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+								<button class="button button-accent" type="submit" name="submit" id="submit" form="form1" formaction="formmail.php" value="send">Send message</button>
+								<h6> or you can contact me with <a href="https://www.facebook.com/omar.elmalek.5/" target="_blank">Facebook Account</a></h6>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <p> All Copy Right Reserved | Designed By 
+                    <a href="https://www.facebook.com/omar.elmalek.5/" target="_blank" title="Omar Abdelatif">Omar Abdelatif</a>
+                </p>
+			</div>
+        </footer>
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    </body>
+</html>
